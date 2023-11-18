@@ -19,7 +19,7 @@
 | Dec 12, 2023|                   |                  |
 
 
-COMPETITIVE ANALYSIS-
+1.COMPETITIVE ANALYSIS-
 
 Domino's:
 Brand Archetype: "Everyman"
@@ -67,7 +67,7 @@ Celebrity Endorsements:
 
 In the past, Papa John's has used celebrity endorsements, such as featuring founder John Schnatter in advertisements, to create a personal connection with the brand instead of asking popular movie stars and rockstars as their brand ambassador.
 
-SWOT ANALYSIS-
+2.SWOT ANALYSIS-
 
 Domino's
 
