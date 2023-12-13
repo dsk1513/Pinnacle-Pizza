@@ -21,6 +21,11 @@ export default function Cards() {
         img: "/images/bbq.jpeg",
         price: "$13.99",
       },
+      {
+        title: "Meat Lover",
+        img: "/images/meatlover.jpeg",
+        price: "$17.99",
+      },
 
     ];
 
