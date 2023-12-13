@@ -6,7 +6,7 @@ import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button } from "@n
 const Header = () => {
   const openMailchimpSignup = () => {
     // Replace 'MAILCHIMP_SIGNUP_URL' with the actual Mailchimp signup form URL
-    const mailchimpSignupUrl = 'http://eepurl.com/iFN81U';
+    const mailchimpSignupUrl = 'http://eepurl.com/iFN81';
     
     // Open the Mailchimp signup form in a new tab
     window.open(mailchimpSignupUrl, '_blank');
@@ -35,8 +35,12 @@ const Header = () => {
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
-        
- 
+      <NavbarItem>
+          <Button className="orangeButton" onClick={openMailchimpSignup}>
+            Sign Up
+          </Button>
+        </NavbarItem>
+    
         
       </NavbarContent>
     </Navbar>
