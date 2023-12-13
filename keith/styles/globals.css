@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.header-top {
+    position: absolute; /* or 'fixed' if you want it to stay at the top even when scrolling */
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 100; /* Ensures it stays above other content */
+}
