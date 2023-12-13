@@ -1,6 +1,6 @@
 // components/Hero.js
 import React from "react";
-
+import styles from "./Hero.module.css"; // Import the module styles
 
 const Hero = ({ backgroundImage, title, subtitle, onOrderNowClick }) => {
   const backgroundStyle = {
