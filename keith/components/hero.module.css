@@ -45,8 +45,8 @@
 /* ... other styles ... */
 
 .content p {
-    font-family: , sans-serif;
-
+    font-family: 'Lexend Zetta', sans-serif;
+    font-weight: 600;
     margin-bottom: 1rem; /* Give some space between the subtitle and the button */
     /* Other styles you want to apply to your subtitle */
   }
