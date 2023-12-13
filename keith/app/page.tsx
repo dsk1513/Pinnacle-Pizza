@@ -16,6 +16,7 @@ export default function Home() {
     return (
         <div className="header-top">
             <Header />
+            <br />
             <Hero
         backgroundImage="/images/PIZZA.jpeg"
         title={<><span>HOT AND CHEESY</span><br /><span>PIZZA</span></>}
