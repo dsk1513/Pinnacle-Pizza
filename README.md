@@ -21,7 +21,7 @@ Figma Link: https://www.figma.com/file/mWcLLjr81mtLDrT1bAoLGs/PIZZA-FIGMA?type=d
 | Dec 5, 2023 |         x         |       x          |
 | Dec 6, 2023 |         x         |       X           |
 | Dec 7, 2023 |        X          |      X          |
-| Dec 12, 2023|                   |      X          |
+| Dec 12, 2023|        X           |      X          |
 
 
 
