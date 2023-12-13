@@ -21,6 +21,11 @@ export default function Home() {
         title={<><span>HOT AND CHEESY</span><br /><span>PIZZA</span></>}
         subtitle="50% OFF 🌟🍕"
       />
+      <br />
+      <br />
+      <br />
+      <br /><br /><br />
+
       <Cards/>
             
         </div>
