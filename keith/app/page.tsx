@@ -12,6 +12,7 @@ export default function Home() {
     return (
         <div className="header-top">
             <Header />
+            <Hero/>
         </div>
     );
 }
