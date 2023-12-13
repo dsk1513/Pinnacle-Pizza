@@ -16,7 +16,11 @@ export default function Cards() {
         img: "/images/pepperoni.jpeg",
         price: "$11.99",
       },
-  
+      {
+        title: "Barbeque Chicken",
+        img: "/images/bbq.jpeg",
+        price: "$13.99",
+      },
 
     ];
 
