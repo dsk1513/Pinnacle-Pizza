@@ -26,6 +26,12 @@ export default function Cards() {
         img: "/images/meatlover.jpeg",
         price: "$17.99",
       },
+      {
+        title: "Veggie Wave",
+        img: "/images/veggiewave.jpeg",
+        price: "$9.99",
+      },
+  
 
     ];
 
