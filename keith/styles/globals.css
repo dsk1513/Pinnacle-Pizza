@@ -9,3 +9,22 @@
     width: 100%;
     z-index: 100; /* Ensures it stays above other content */
 }
+.orangeButton {
+
+
+    color: #FFFFFF; /* White text color for better contrast */
+    background: #cf8217; /* Orange background color */
+    border: none;
+    border-radius: 10px; /* Adjust the border-radius to match the style */
+    padding: 0.75rem 1.5rem; /* Padding for size */
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.25); /* Shadow effect */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for interactive states */
+    /* Use !important if necessary to override */
+  }
+  
+  .orangeButton:hover {
+    background: #E69500; /* Slightly darker shade of orange on hover */
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.25); /* Enhanced shadow effect on hover */
+    /* Use !important if necessary to override */
+  }
