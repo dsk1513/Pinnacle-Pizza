@@ -9,6 +9,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import '/Users/dineshchalla/Desktop/keith/group-project/keith/styles/globals.css'; // Import the CSS file
 import Cards from "@/components/Cards";
+import AboutUs from "@/components/AboutUs";
 
 
 
@@ -28,7 +29,7 @@ export default function Home() {
       <br /><br /><br />
 
       <Cards/>
-            
+            <AboutUs/>
         </div>
     );
 }
