@@ -29,6 +29,7 @@ export default function Home() {
       <br /><br /><br />
 
       <Cards/>
+      <br /><br /> <br /><br />
             <AboutUs/>
         </div>
     );
