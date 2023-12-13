@@ -6,13 +6,17 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import Header from "@/components/Header";
+import Hero from "@/components/Hero";
 import '/Users/dineshchalla/Desktop/keith/group-project/keith/styles/globals.css'; // Import the CSS file
+
+
 
 export default function Home() {
     return (
         <div className="header-top">
             <Header />
             <Hero/>
+            
         </div>
     );
 }
