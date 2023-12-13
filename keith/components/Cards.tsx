@@ -11,6 +11,7 @@ export default function Cards() {
       img: "/images/buffalochicken.jpeg",
       price: "$13.99",
     },
+    
     ];
 
   return (
