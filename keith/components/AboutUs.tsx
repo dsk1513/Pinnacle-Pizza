@@ -2,7 +2,7 @@
 'use client'
 import React from "react";
 
-const AboutUs = () => {
+const Aboutus = () => {
   return (
     <section className="py-12 bg-black font-worksans">
       <div className="container mx-auto">
@@ -50,4 +50,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Aboutus;
