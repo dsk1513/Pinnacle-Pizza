@@ -2,9 +2,9 @@ import React from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Cards from "@/components/Cards";
-import AboutUs from "@/components/AboutUs";
+import Aboutus from "@/components/Aboutus";
 import '/Users/dineshchalla/Desktop/keith/group-project/keith/styles/globals.css'; // Adjust this path
-/
+
 export default function Home() {
   return (
     <div className="header-top">
@@ -17,7 +17,7 @@ export default function Home() {
         subtitle="50% OFF on your first order 🌟🍕"
       />
       <Cards />
-      <AboutUs />
+      < Aboutus/>
     </div>
   );
 }
