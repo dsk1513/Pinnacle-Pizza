@@ -1,61 +1,39 @@
-/* Add this at the top of your hero.module.css */
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@500&display=swap');
 
-
-/* components/Hero.module.css */
 .hero {
-    position: relative;
-    height: 75vh; /* Set the height to 100vh for full viewport height */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; /* Prevent image from repeating */
-    color: #fff;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .content {
-    text-align: center;
-  }
-  
-  .content h1 {
-    font-family: 'Lexend Zetta', sans-serif;
-    font-weight: 700; /* Ensure the weight is not more than the maximum provided by the font */
-    font-size: 2rem; /* Example size; adjust as needed */
-    /* Add other styles like line-height, margin, etc., if necessary */
-  }
-  
-  .content p {
-    font-family: 'Lexend Zetta', sans-serif;
-    font-weight: 600;
-    /* Other styles you want to apply to your subtitle */
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75vh; /* Adjust as needed */
+}
 
-  /* components/Hero.module.css */
-/* ... other styles ... */
+.heroLeft {
+  width: 50%; /* Adjust the width as needed */
+  padding: 20px;
+}
+
+.heroLeft img {
+  width: 100%; /* Adjust the width as needed */
+  height: auto;
+}
+
+.heroRight {
+  width: 50%; /* Adjust the width as needed */
+  padding: 20px;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  font-family: 'Lexend Zetta', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
 
 .content p {
-    font-family: 'Lexend Zetta', sans-serif;
-    font-weight: 600;
-    margin-bottom: 1rem; /* Give some space between the subtitle and the button */
-    /* Other styles you want to apply to your subtitle */
-  }
-  
-  /* New styles for the button */
-  /* components/Hero.module.css */
-/* ... other styles ... */
-/* components/Hero.module.css */
-/* ... other styles ... */
-
-  
-  
+  font-family: 'Lexend Zetta', sans-serif;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
