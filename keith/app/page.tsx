@@ -2,7 +2,7 @@ import React from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Cards from "@/components/Cards";
-import Aboutus from "@/components/Aboutus";
+import Aboutuss from "@/components/Aboutuss";
 import '/Users/dineshchalla/Desktop/keith/group-project/keith/styles/globals.css'; // Adjust this path
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
         subtitle="50% OFF on your first order 🌟🍕"
       />
       <Cards />
-      < Aboutus/>
+      <Aboutuss/>
     </div>
   );
 }
