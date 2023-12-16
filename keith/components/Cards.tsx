@@ -18,7 +18,7 @@ export default function Cards() {
       },
       {
         title: "BarbequeChicken",
-        img: "/images/bbq.jpeg",
+        img: "/images/bar.jpeg",
         price: "$13.99",
       },
       {
