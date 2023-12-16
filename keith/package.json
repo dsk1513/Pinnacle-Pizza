@@ -9,13 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@nextui-org/react": "^2.2.9",
     "@nextui-org/button": "2.0.26",
     "@nextui-org/code": "2.0.24",
     "@nextui-org/input": "2.1.16",
     "@nextui-org/kbd": "2.0.25",
     "@nextui-org/link": "2.0.26",
-    "@nextui-org/navbar": "2.0.27",   
+    "@nextui-org/navbar": "2.0.27",
+    "@nextui-org/react": "^2.2.9",
     "@nextui-org/snippet": "2.0.30",
     "@nextui-org/switch": "2.0.25",
     "@nextui-org/system": "2.0.15",
@@ -26,6 +26,7 @@
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.16",
+    "client-only": "^0.0.1",
     "clsx": "^2.0.0",
     "eslint": "8.48.0",
     "eslint-config-next": "14.0.2",
@@ -39,5 +40,8 @@
     "tailwind-variants": "^0.1.18",
     "tailwindcss": "3.3.5",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/gtag.js": "^0.0.18"
   }
 }
