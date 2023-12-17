@@ -1,68 +1,54 @@
+import React from 'react';
 import "@/styles/globals.css";
-import { Metadata } from "next";
-import { siteConfig } from "@/config/site";
+import { Metadata } from "next"; // Ensure this is correctly imported
+import { siteConfig } from "@/config/site"; // Verify these paths
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
+import Header from "@/components/Header"; // Verify the path
+import Hero from '@/components/Hero';
+import clsx from "clsx";
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import CookieBanner from '@/components/CookieBanner';
-import { Link } from "@nextui-org/link";
-import clsx from "clsx";
-;
 
+// Assuming Metadata type is correctly defined
 export const metadata: Metadata = {
-	title: {
-		default: siteConfig.name,
-		template: `%s - ${siteConfig.name}`,
-	},
-	description: siteConfig.description,
-	themeColor: [
-		{ media: "(prefers-color-scheme: light)", color: "white" },
-		{ media: "(prefers-color-scheme: dark)", color: "black" },
-	],
-	icons: {
-		icon: "/favicon.ico",
-		shortcut: "/favicon-16x16.png",
-		apple: "/apple-touch-icon.png",
-	},
+    title: {
+        default: siteConfig.name,
+        template: `%s - ${siteConfig.name}`,
+    },
+    description: siteConfig.description,
+    themeColor: [
+        { media: "(prefers-color-scheme: light)", color: "white" },
+        { media: "(prefers-color-scheme: dark)", color: "black" },
+    ],
+    icons: {
+        icon: "/favicon.ico",
+        shortcut: "/favicon-16x16.png",
+        apple: "/apple-touch-icon.png",
+    },
 };
 
-export default function RootLayout({
-	children,
-}: {
-	children: React.ReactNode;
-}) {
-	return (
-		<html lang="en" suppressHydrationWarning>
-			<head />
-			<GoogleAnalytics GA_MEASUREMENT_ID='G-7RJ25106X0'/>
-			<body
-				className={clsx(
-					"min-h-screen bg-background font-sans antialiased",
-					fontSans.variable
-				)}
-			>
-				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-					<div className="relative flex flex-col h-screen">
-					
-					
-						<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
-							{children}
-							<CookieBanner/>
-
-						</main>
-						<footer className="w-full flex items-center justify-center py-3">
-							<Link
-								isExternal
-								className="flex items-center gap-1 text-current"
-								href="https://nextui-docs-v2.vercel.app?utm_source=next-app-template"
-								title="nextui.org homepage"
-							>
-								
-							</Link>
-						</footer>
-					</div>
-				</Providers>
-			</body>
-		</html>
-	);
+export default function RootLayout({ children }: { children: React.ReactNode; }) {
+    return (
+        
+        <html lang="en" suppressHydrationWarning>
+            <head />
+            <GoogleAnalytics GA_MEASUREMENT_ID='G-7RJ25106X0'/>
+         
+            <body className={clsx("min-h-screen bg-black font-sans antialiased", fontSans.variable)}>
+                
+                <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+                    <div className="flex flex-col min-h-screen">
+                        <Header />
+                        <Hero/>
+                        {/* Adjusted for full width and no horizontal padding */}
+                        <main className="flex-grow w-full">
+                            {children}
+                            <CookieBanner/>
+                        </main>
+                    </div>
+                </Providers>
+            </body>
+        </html>
+    );
 }
