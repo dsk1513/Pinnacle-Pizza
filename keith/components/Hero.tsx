@@ -1,4 +1,4 @@
-
+'use client'
 import Image from 'next/image';
 import pizzaBackground from "/Users/dineshchalla/Desktop/keith/group-project/keith/public/images/frame1.jpg";
 import leftSideImage from "/Users/dineshchalla/Desktop/keith/group-project/keith/public/images/herof.png";
