@@ -2,41 +2,68 @@ import React from "react";
 
 const Aboutuss = () => {
   return (
-    <section className="py-12 bg-black font-worksans">
-      <div className="container mx-auto">
-        <h2 className="text-center text-4xl text-white font-semibold">About US</h2>
-        <article className="text-white text-[16px] font-worksans-medium leading-relaxed mt-[2rem]">
-          Pinnacle Pizza, an Italian restaurant, offers a culinary journey inspired by the rich traditions of Italy. Immerse yourself in a warm and inviting ambiance where each bite is a celebration of authentic flavors and passion for exceptional food.
-        </article>
-        <article className="text-white text-[16px] font-worksans-medium leading-relaxed mt-[2rem]">
-          At Pinnacle Pizza, we believe in the art of dining. Our attentive staff and rustic-chic decor create an atmosphere that encourages savoring every moment. Whether you&apos;re sharing a meal with family, enjoying a romantic evening, or hosting a special event, our Italian restaurant promises an unforgettable experience.
-        </article>
-        
-        <article className="text-white text-[16px] font-worksans-medium leading-relaxed mt-[2rem]">
-          Indulge in the essence of Italy with our carefully curated wine list, offering the perfect complement to your meal. From the first bite to the last, Pinnacle Pizza invites you to elevate your dining experience with the pinnacle of Italian culinary excellence. Buon Appetito!
-        </article>
+    <section id="Aboutuss" className="bg-white-500">
+      <h2 className="text-5xl font-bold my-16 text-center text-orange-500">Our Story</h2>
 
-        <br />
-        <br />
-        <br />
-        <br />
-       
-        <article 
-          className="text-white text-[16px] font-worksans-medium leading-relaxed mt-[2rem]"
-          style={{ textAlign: 'left', paddingLeft: '10%' }}
-        >
-          <span>FIND OUR RESTAURANTS</span>
-          <span style={{ margin: '0 320px' }}></span> {/* Adjust the margin as needed */}
-          <span>WORKING HOURS</span>
-        </article>
+      <div className="container mx-auto px-4 lg:px-16">
+        {/* First Row */}
+        <div className="flex flex-col lg:flex-row items-start gap-12 mb-16">
+          <div className="lg:w-1/2">
+            <div className="overflow-hidden rounded-lg shadow-lg h-80">
+              <img 
+                src="/images/dough.jpeg"
+                alt="Tradition of Pizza Making"
+                className="object-cover w-full h-full"
+              />
+            </div>
+          </div>
+          <div className="lg:w-1/2">
+    <h1 className="text-2xl text-orange-500 font-bold mb-4">Crafting the Perfect Base</h1>
+    <p className="text-xl text-white mb-6">
+        Every great pizza begins with the foundation - the dough. Our meticulous process involves hand-kneading the dough to achieve that perfect balance of chewiness and crisp. Sprinkled with just the right amount of flour, our dough is a testament to the art of pizza making, promising an unforgettable crust for every pizza at Pinnacle Pizza.
+    </p>
+</div>
 
-        <article 
-          className="text-white text-[16px] font-worksans-medium leading-relaxed mt-4 mb-6">
-            <div>1654 R. Don Road Avenue #304, Town City, 8524 (602) 867-1010 MON-FRI 10AM-8PM</div>
-            <div>2567 R. Erick Lam RD #235, Town City, 8524 (602) 867-1011</div>
-            <div>3701 R. Erwin St #104, Town City, 8524 (602) 867-1014</div>
-            <div>1023 R. W. Caroll St Jones #125, Town City, 8524 (602) 867-1018</div>
-        </article>
+
+        </div>
+
+        {/* Second Row */}
+        <div className="flex flex-col lg:flex-row items-start gap-12 mb-16">
+          <div className="lg:w-1/2">
+            <div className="overflow-hidden rounded-lg shadow-lg h-80">
+              <img 
+                src="/images/pizza2.webp"
+                alt="Artisanal Ingredients"
+                className="object-cover w-full h-full"
+              />
+            </div>
+          </div>
+          <div className="lg:w-1/2 ">
+          <h1 className="text-2xl text-orange-500 font-bold mb-4">Fire-Kissed Flavor</h1>
+          <p className="text-xl text-white mb-6">
+            At Pinnacle Pizza, the magic happens in our traditional brick oven, where each pizza is cooked to smoky perfection. The intense heat locks in the flavors, melds the toppings with the cheese, and creates that signature charred crust. This image captures the essence of our time-honored baking method - a dance of flame and flavor.
+            </p>
+          </div>
+        </div>
+
+        {/* Third Row */}
+        <div className="flex flex-col lg:flex-row items-start gap-12">
+          <div className="lg:w-1/2">
+            <div className="overflow-hidden rounded-lg shadow-lg h-80">
+              <img 
+                src="/images/pizza3.jpeg"
+                alt="Community and Connection"
+                className="object-cover w-full h-full"
+              />
+            </div>
+          </div>
+          <div className="lg:w-1/2 ">
+          <h1 className="text-2xl text-orange-500 font-bold mb-4">The Final Touch</h1>
+            <p className="text-xl  text-white mb-6">
+              With a beaming smile, our chef presents the final product: a pizza that's a feast for both the eyes and the palate. Each ingredient is chosen for its freshness and quality, ensuring that every slice from Pinnacle Pizza offers a harmonious blend of toppings on a perfectly baked crust. Here's where culinary expertise meets the joy of serving you the best.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
