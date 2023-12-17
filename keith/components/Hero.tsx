@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image';
-import pizzaBackground from "/Users/dineshchalla/Desktop/keith/group-project/keith/public/images/frame1.jpg";
-import leftSideImage from "/Users/dineshchalla/Desktop/keith/group-project/keith/public/images/herof.png";
+import pizzaBackground from "/public/images/frame1.jpg";
+import leftSideImage from "/public/images/herof.png";
 
 const Hero = () => {
     return (
