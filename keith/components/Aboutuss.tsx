@@ -62,7 +62,7 @@ const Aboutuss = () => {
           <div className="lg:w-1/2 ">
           <h1 className="text-2xl text-orange-500 font-bold mb-4">The Final Touch</h1>
             <p className="text-xl  text-white mb-6">
-              With a beaming smile, our chef presents the final product: a pizza that's a feast for both the eyes and the palate. Each ingredient is chosen for its freshness and quality, ensuring that every slice from Pinnacle Pizza offers a harmonious blend of toppings on a perfectly baked crust. Heres where culinary expertise meets the joy of serving you the best.
+              With a beaming smile, our chef presents the final product: a pizza thats a feast for both the eyes and the palate. Each ingredient is chosen for its freshness and quality, ensuring that every slice from Pinnacle Pizza offers a harmonious blend of toppings on a perfectly baked crust. Heres where culinary expertise meets the joy of serving you the best.
             </p>
           </div>
         </div>
