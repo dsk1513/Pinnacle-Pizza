@@ -33,7 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode; })
         
         <html lang="en" suppressHydrationWarning>
             <head />
-            <GoogleAnalytics GA_MEASUREMENT_ID='G-7RJ25106X0'/>
+            <GoogleAnalytics GA_MEASUREMENT_ID='G-84Y9RYT77F'/>
          
             <body className={clsx("min-h-screen bg-black font-sans antialiased", fontSans.variable)}>
                 
