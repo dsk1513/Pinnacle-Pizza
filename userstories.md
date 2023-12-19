@@ -1,51 +1,47 @@
-My business, Pinnacle Pizza, embraces the Everyman archetype, creating a welcoming haven for pizza enthusiasts. Drawing inspiration from my passion for traditional Italian pizzas, I infuse the spirit of relatability into Pinnacle Pizza's offerings and ambiance. With a commitment to providing a comforting and accessible experience, my pizzeria becomes the preferred destination for those seeking the genuine joy of everyday indulgence. The persona, "Joey," resonates with my vision, appreciating the genuine and delightful pizza adventure I curate at Pinnacle Pizza.
+*User Story 1: Discovering Pinnacle Pizza*
+•⁠  ⁠Joey searches for a new pizza place online and Pinnacle Pizza pops up with a catchy slogan, "Taste Italy Here! Served Hot, Fresh, and Fast."
+•⁠  ⁠He clicks through because the vibrant colors and the promise of authentic Italian taste catch his attention.
 
-User Stories for Pinnacle Pizza:
-Awareness Epic: Pinnacle Pizza
-User Story 1: Search Results
-Joey sees the title of the website in the search results.
-* Action: Click on the title "Pinnacle Pizza."
-* Result: View website homepage.
-User Story 2: Looking at the Promotion Description
-Joey sees the Pinnacle Pizza promotion description on the search results page.
-* Action: The search result description says, "Embark on a culinary journey to Italy with Pinnacle Pizza. Enjoy a complimentary Italian appetiser on your first order. Experience the pinnacle of pizza perfection, right at your doorstep."
-* Result: Not Applicable Information Text.
-User Story 3: Home Page Introduction
-Joey clicks on the Pinnacle Pizza website.
-* Action: The website opens up to a captivating Hero section with images of authentic Italian pizzas and the text, “Indulge in the pinnacle of Italian pizza perfection, a taste of Italy delivered to your door.”
-* Result: Not Applicable Information Text.
-User Story 4: Navigation Bar
-Joey can see options such as Home, Menu, About Us, Sign In, and Sign Up in the Navigation Bar.
-* Action: The Home page consists of a Hero section with images of various pizza varieties and an "Order Now" button.
-* Result: If Joey is a pizza lover, he will click on the Order Now button.
-User Story 5: Menu
-Joey clicks on the Menu Button and can see different types of pizzas.
-* Under Classic Pizzas, he can select Margherita, Pepperoni, Quattro Formaggi, Vegetariana, and Capricciosa.
-* Action: If Joey likes any from the Classic Pizzas section, he will click on the ADD button.
-* Result: The selected pizza is added to the cart.
-User Story 6: Menu
-Joey clicks and selects any specialty pizza.
-* Under Specialty Pizzas, options like Pinnacle Supreme, Truffle Delight, and Mediterranean Magic are mentioned.
-* Action: If Joey likes any Specialty Pizza, she will click on the ADD button.
-* Result: The selected specialty pizza is added to the cart.
-User Story 7: Sides
-Joey selects any side dish from the menu.
-* Under Sides, Garlic Bread, Arancini, and Bruschetta are mentioned.
-* Action: If Joey likes any side dish, she will click on the ADD button.
-* Result: The selected side dish is added to the cart.
-User Story 8: About Us Page
-Joey clicks on the About Us page, and the following information must be displayed with a background image.
-* Action: If Joey likes the About Us page, then she will follow Pinnacle Pizza on Social Media.
-* Result: Joey follows Pinnacle Pizza on social media platforms like Instagram and Facebook.
-User Story 9: Social Links on the About Us Page
-Joey sees the social media links at the footer.
-* Action: If Joey likes Pinnacle Pizza, she will subscribe to Pinnacle Pizza on Instagram/Facebook.
-* Result: Joey clicks on Instagram/Facebook and follows Pinnacle Pizza.
-User Story 10: Sign Up Page
-Joey decides to provide information for signing up for Pinnacle Pizza.
-* Action: If Joey likes Pinnacle Pizza, she will fill in the details such as Full Name, Email, and Password and click on Register.
-* Result: Joey is signed up with Pinnacle Pizza and is eligible for a free Italian appetiser on her first order.
-User Story 11: Sign Up with Google
-Joey decides to register using her Gmail ID.
-* Action: If Joey likes Pinnacle Pizza, she will register using her Gmail ID.
-* Result: Joey is registered on Pinnacle Pizza and is applicable for a free Italian appetiser on her first order.
+*User Story 2: Enticed by Promotions*
+•⁠  ⁠Joey sees a bold offer right on the homepage banner: "Enjoy 50% Off ON Your First Order" and notes that the offer is valid until Christmas.
+•⁠  ⁠Thinking of the upcoming holidays, he's drawn in by the time-limited deal.
+
+*User Story 3: First Impressions*
+•⁠  ⁠The homepage of Pinnacle Pizza greets Joey with a cheerful guy holding a pizza, the yellow background radiating warmth and energy.
+•⁠  ⁠"This place feels fun and inviting," he thinks, already imagining the taste of the pizza.
+
+*User Story 4: Easy Site Navigation*
+•⁠  ⁠Joey easily spots the "Sign Up" button in the top navigation bar; its prominent placement against the black background stands out.
+•⁠  ⁠"Time to get that deal," he decides, ready to join the Pinnacle Pizza community.
+
+*User Story 5: Exploring the Menu*
+•⁠  ⁠Joey explores the menu, impressed by the professional photos and clear pricing.
+•⁠  ⁠"These pizzas look incredible, and the prices are reasonable," he muses.
+
+*User Story 6: Connecting with the Brand*
+•⁠  ⁠On the "About Us" page, Joey reads about Pinnacle Pizza's dedication to perfecting their pizza craft.
+•⁠  ⁠He nods, thinking, "They're serious about their pizza. That's the kind of place I want to order from."
+
+*User Story 7: Signing Up for Deals*
+•⁠  ⁠The 50% discount offer convinces Joey to sign up. He sees a clear call to action: "Sign Up for Instant 50% Discount."
+•⁠  ⁠"That's quite a welcome," Joey thinks as he fills out the straightforward form.
+
+*User Story 8: Joining the Community*
+•⁠  ⁠After inputting his details on a clean and simple sign-up form, Joey feels like he's taking the first step into the Pinnacle Pizza world.
+•⁠  ⁠"Let the tasty journey begin," he says to himself, anticipating his first order.
+
+*User Story 9: Sign Up Page*
+•⁠  ⁠Joey is ready to grab his discount and is prompted to enter his details into a form with the header "SIGN UP FOR INSTANT 50% DISCOUNT."
+•⁠  ⁠"Just a few clicks to pizza heaven," he thinks as he types in his information.
+
+*User Story 10: MailChimp Integration*
+•⁠  ⁠Once Joey hits "Subscribe" on the sign-up form, he knows he's in for more than just a discount — he's looking forward to updates and future deals.
+•⁠  ⁠"This could be the start of many pizza nights," he considers, already planning his next orders.
+
+*User Story 11: Post-Subscription Engagement*
+•⁠  ⁠The Pinnacle Pizza team, on the other side, sees Joey's information pop up in their MailChimp dashboard.
+•⁠  ⁠They're excited to welcome a new pizza lover into the fold and tailor future offers to his preferences.
+
+*User Story 12: User Consent for Cookies*
+•⁠  ⁠While browsing, Joey encounters a cookie consent prompt at the bottom of the page, reassuring him that Pinnacle Pizza respects his privacy.
+•⁠  ⁠"Good, they take privacy seriously," Joey acknowledges, clicking "Allow" to get the best personalized experience.
