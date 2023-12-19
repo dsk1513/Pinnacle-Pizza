@@ -74,3 +74,16 @@ test.describe('Footer Component Tests', () => {
     await expect(footer).toBeVisible();
   });
 });
+
+
+test.describe('Hero Component Tests', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto('https://group-project-three.vercel.app/'); // Replace with your component's URL
+  });
+
+  test('Hero component should be visible', async ({ page }) => {
+    const heroComponent = page.locator('#Hero');
+    await expect(heroComponent).toBeVisible();
+  });
+});
+
