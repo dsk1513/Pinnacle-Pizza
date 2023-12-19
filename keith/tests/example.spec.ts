@@ -22,4 +22,13 @@ test.describe('Aboutuss Component Tests', () => {
   await expect(page.locator('img[alt="Artisanal Ingredients"]')).toHaveAttribute('src', '/images/pizza2.webp');
   await expect(page.locator('img[alt="Community and Connection"]')).toHaveAttribute('src', '/images/pizza3.jpeg');
 });
+ // Test for the presence of specific text content
+ test('should display the correct text content', async ({ page }) => {
+  const firstParagraph = await page.locator('text=Every great pizza begins with the foundation - the dough.');
+  await expect(firstParagraph).toBeVisible();
+
+  // Add more checks for other text content as needed
+});
+
+// Additional tests can be written to cover other aspects of the component
 });
