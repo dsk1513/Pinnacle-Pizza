@@ -54,4 +54,19 @@ test.describe('Header Component Tests', () => {
     // Navigate to the page where the Header component is rendered
     await page.goto('https://group-project-three.vercel.app/');
   });
+
+  // Test for clicking each navigation link
+  // This assumes your site uses client-side routing or anchor links
+  
+
+
+});
+
+
+
+
+test.describe('Footer Component Tests', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto('https://group-project-three.vercel.app/'); // Replace with your component's URL
+  });
 });
