@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.describe('Aboutuss Component Tests', () => {
   // Load the page where Aboutuss component is rendered before each test
   test.beforeEach(async ({ page }) => {
-    await page.goto('https://group-project-pmgxs95zh-dsk1513s-projects.vercel.app/'); // Replace with the correct URL
+    await page.goto('http://localhost:3000/'); // Replace with the correct URL
   });
 
   // Test to check if the main section is present
@@ -39,7 +39,7 @@ test.describe('Aboutuss Component Tests', () => {
 test.describe('Cards Component Tests', () => {
   test.beforeEach(async ({ page }) => {
     // Navigate to the page where the Cards component is rendered
-    await page.goto('https://group-project-pmgxs95zh-dsk1513s-projects.vercel.app/');
+    await page.goto('http://localhost:3000/');
   });
 
 
@@ -54,7 +54,7 @@ test.describe('Cards Component Tests', () => {
 test.describe('Header Component Tests', () => {
   test.beforeEach(async ({ page }) => {
     // Navigate to the page where the Header component is rendered
-    await page.goto('https://group-project-pmgxs95zh-dsk1513s-projects.vercel.app/');
+    await page.goto('http://localhost:3000/');
   });
 
 
@@ -71,7 +71,7 @@ test.describe('Header Component Tests', () => {
 
 test.describe('Footer Component Tests', () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto('https://group-project-pmgxs95zh-dsk1513s-projects.vercel.app/'); // Replace with your component's URL
+    await page.goto('http://localhost:3000/'); // Replace with your component's URL
   });
 
   test('Footer should be visible', async ({ page }) => {
@@ -94,7 +94,7 @@ test.describe('Footer Component Tests', () => {
 
 test.describe('Hero Component Tests', () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto('https://group-project-pmgxs95zh-dsk1513s-projects.vercel.app/'); // Replace with your component's URL
+    await page.goto('http://localhost:3000/'); // Replace with your component's URL
   });
 
   test('Hero component should be visible', async ({ page }) => {
@@ -116,7 +116,7 @@ const titles = [
 
 for (const title of titles) {
   test(`should display the card with title "${title}"`, async ({ page }) => {
-    await page.goto('https://group-project-pmgxs95zh-dsk1513s-projects.vercel.app/#Cardstext'); // Navigate to the page where the titles are expected to be
+    await page.goto('http://localhost:3000/'); // Navigate to the page where the titles are expected to be
     const cardTitle = page.locator(`text=${title}`);
     await cardTitle.waitFor({ state: 'visible', timeout: 10000 }); // Optionally increase timeout if needed
     await expect(cardTitle).toBeVisible();
@@ -124,19 +124,19 @@ for (const title of titles) {
 }
 
 test('Navbar renders correctly', async ({ page }) => {
-  await page.goto('https://group-project-pmgxs95zh-dsk1513s-projects.vercel.app/'); // Adjust the URL to your application's URL
+  await page.goto('http://localhost:3000/'); // Adjust the URL to your application's URL
   const navbar = await page.locator('nav');
   expect(await navbar.isVisible()).toBeTruthy();
 });
 
 test('Logo image loads correctly', async ({ page }) => {
-  await page.goto('https://group-project-pmgxs95zh-dsk1513s-projects.vercel.app/');
+  await page.goto('http://localhost:3000/');
   const logoImage = await page.locator('nav >> img[alt="Your Brand Logo"]');
   expect(await logoImage.isVisible()).toBeTruthy();
 });
 
 test('Page is accessible', async ({ page }) => {
-  await page.goto('https://group-project-pmgxs95zh-dsk1513s-projects.vercel.app/Home');
+  await page.goto('http://localhost:3000/Home');
   await expect(await page.accessibility.snapshot()).toBeTruthy();
 });
 
