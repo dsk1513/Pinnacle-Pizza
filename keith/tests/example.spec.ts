@@ -39,4 +39,12 @@ test.describe('Cards Component Tests', () => {
     // Navigate to the page where the Cards component is rendered
     await page.goto('https://group-project-three.vercel.app/');
   });
+
+
+  test('Responsive layout changes at breakpoints', async ({ page }) => {
+    await page.setViewportSize({ width: 800, height: 600 });
+    // Add checks for layout at this size
+    await page.setViewportSize({ width: 1200, height: 800 });
+    // Add checks for layout at this size
+  });
 });
