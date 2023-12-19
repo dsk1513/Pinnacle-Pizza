@@ -1,28 +1,28 @@
-'use client'
 const Footer = () => {
     return (
         <footer style={{ 
-            backgroundColor: '#FFA500', // Orange background
-            color: '#000000', // Black text color
-            padding: '20px 0', // Vertical padding 20px, horizontal padding 0
-            display: 'flex', 
-            justifyContent: 'space-between', // Space out child elements evenly
-            alignItems: 'center', // Align items vertically in the center
-            fontSize: '16px', // Base font size
-            fontFamily: 'Arial, sans-serif', // Font family
-            width: '100%', // Full width
-            boxSizing: 'border-box' // Ensure padding does not add to the width
+            backgroundColor: '#FFA500',
+            color: '#000000',
+            padding: '20px 0',
+            display: 'flex',
+            justifyContent: 'flex-start', // Changed to 'flex-start' to align items to the start
+            alignItems: 'center',
+            fontSize: '16px',
+            fontFamily: 'Arial, sans-serif',
+            width: '100%',
+            boxSizing: 'border-box'
         }}>
             {/* Left Side - Find Our Restaurants */}
             <div style={{ 
-                textAlign: 'left', // Align text to the left
-                paddingLeft: '20px' // Padding on the left
+                textAlign: 'left',
+                paddingLeft: '20px', // Adjust this value if you need more space on the left
+                flex: '1 0 auto' // Added flex property to allow it to grow
             }}>
                 <h3 style={{
-    fontWeight: 'bold', 
-    marginBottom: '5px',
-    paddingLeft: '40px' // Adjust the pixel value as needed
-}}>Find Our Restaurants</h3>
+                    fontWeight: 'bold', 
+                    marginBottom: '5px',
+                    paddingLeft: '40px'
+                }}>Find Our Restaurants</h3>
 
                 <p>150 Belmont Avenue jersey city, 10001</p>
                 <p>850 6th avenue new york, 10001</p>
@@ -30,19 +30,19 @@ const Footer = () => {
             
             {/* Center - Pinnacle Pizza */}
             <div style={{ 
-                textAlign: 'center', // Center text
-                padding: '0 30px' // Padding on the sides
+                textAlign: 'center',
+                padding: '0 10px', // Reduced side paddings to move the content to the left
+                flex: '0 1 auto' // Changed flex property to prevent it from growing
             }}>
                 <div style={{ 
                     fontWeight: 'bold',
-                    fontSize: '24px', // Larger font size for Pinnacle Pizza
-                   
+                    fontSize: '24px',
                 }}>
                     Pinnacle Pizza
                 </div>
                 <div style={{ 
-                    color: '#494DAB', // Red text color for copyright notice
-                    fontSize: '14px', // Smaller font size for copyright notice
+                    color: '#494DAB',
+                    fontSize: '14px',
                 }}>
                     © 500degreespizzeria 2016 • All rights reserved.
                 </div>
@@ -50,8 +50,9 @@ const Footer = () => {
 
             {/* Right Side - Working Hours */}
             <div style={{ 
-                textAlign: 'right', // Align text to the right
-                paddingRight: '20px' // Padding on the right
+                textAlign: 'right',
+                paddingRight: '20px',
+                flex: '1 0 auto' // Added flex property to allow it to grow
             }}>
                 <h3 style={{ fontWeight: 'bold', marginBottom: '5px' }}>Working Hours</h3>
                 <p>Mon-Fri: 10-6</p>
