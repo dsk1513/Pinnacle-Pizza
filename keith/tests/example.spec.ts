@@ -48,3 +48,10 @@ test.describe('Cards Component Tests', () => {
     // Add checks for layout at this size
   });
 });
+
+test.describe('Header Component Tests', () => {
+  test.beforeEach(async ({ page }) => {
+    // Navigate to the page where the Header component is rendered
+    await page.goto('https://group-project-three.vercel.app/');
+  });
+});
