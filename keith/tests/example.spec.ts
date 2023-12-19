@@ -69,4 +69,8 @@ test.describe('Footer Component Tests', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('https://group-project-three.vercel.app/'); // Replace with your component's URL
   });
+  test('Footer should be visible', async ({ page }) => {
+    const footer = await page.locator('footer');
+    await expect(footer).toBeVisible();
+  });
 });
