@@ -16,4 +16,4 @@ test.describe('Aboutuss Component Tests', () => {
     const heading = await page.locator('h2:text("Our Story")').textContent();
     await expect(heading).toBe('Our Story');
   });
-  
+});
