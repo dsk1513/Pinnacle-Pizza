@@ -87,3 +87,20 @@ test.describe('Hero Component Tests', () => {
   });
 });
 
+
+const titles = [
+  "Buffalo Chicken", "Pepperoni", "Barbeque Chicken", 
+  "Meat Lover", "Veggie Wave", "Spinach Delight", 
+  "Ranch Chicken", "Feta Cheese", "Supreme", 
+  "Maxie"
+];
+
+for (const title of titles) {
+  test(`should display the card with title "${title}"`, async ({ page }) => {
+    await page.goto('https://group-project-three.vercel.app/'); // Navigate to the page where the titles are expected to be
+    const cardTitle = page.locator(`text=${title}`);
+    await cardTitle.waitFor({ state: 'visible', timeout: 10000 }); // Optionally increase timeout if needed
+    await expect(cardTitle).toBeVisible();
+  });
+}
+
