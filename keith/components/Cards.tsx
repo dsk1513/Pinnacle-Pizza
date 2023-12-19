@@ -45,22 +45,22 @@ export default function Cards() {
       price: "$9.99",
     },
     {
-      title: "Veggie Wave",
+      title: "Ranch Chicken",
       img: "/images/veggiewave.jpeg",
       price: "$9.99",
     },
     {
-      title: "Spinach Delight",
+      title: "Feta Cheese",
       img: "/images/spy.jpeg",
       price: "$9.99",
     },
     {
-      title: "Wisconsin Cheese",
+      title: "Supreme",
       img: "/images/wis.jpeg",
       price: "$9.99",
     },
     {
-      title: "Deluxe",
+      title: "Maxiee",
       img: "/images/deluxe.jpeg",
       price: "$9.99",
     },
