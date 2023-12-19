@@ -6,62 +6,62 @@ export default function Cards() {
   const list = [
     {
       title: "Buffalo Chicken",
-      img: "/images/buffalochicken.jpeg",
+      img: "/images/buffalochicken.webp",
       price: "$13.99",
     },
     {
       title: "Pepperoni",
-      img: "/images/pepperoni.jpeg",
+      img: "/images/pepperoni.webp",
       price: "$11.99",
     },
     {
       title: "Barbeque Chicken",
-      img: "/images/bar.jpeg",
+      img: "/images/bar.webp",
       price: "$13.99",
     },
     {
       title: "Meat Lover",
-      img: "/images/meatlover.jpeg",
+      img: "/images/meatlover.webp",
       price: "$17.99",
     },
     {
       title: "Veggie Wave",
-      img: "/images/veggiewave.jpeg",
+      img: "/images/veggiewave.webp",
       price: "$9.99",
     },
     {
       title: "Spinach Delight",
-      img: "/images/spy.jpeg",
+      img: "/images/spy.webp",
       price: "$9.99",
     },
     {
       title: "Wisconsin Cheese",
-      img: "/images/wis.jpeg",
+      img: "/images/wis.webp",
       price: "$9.99",
     },
     {
       title: "Deluxe",
-      img: "/images/deluxe.jpeg",
+      img: "/images/deluxe.webp",
       price: "$9.99",
     },
     {
       title: "Ranch Chicken",
-      img: "/images/veggiewave.jpeg",
+      img: "/images/veggiewave.webp",
       price: "$9.99",
     },
     {
       title: "Feta Cheese",
-      img: "/images/spy.jpeg",
+      img: "/images/spy.webp",
       price: "$9.99",
     },
     {
       title: "Supreme",
-      img: "/images/wis.jpeg",
+      img: "/images/wis.webp",
       price: "$9.99",
     },
     {
       title: "Maxiee",
-      img: "/images/deluxe.jpeg",
+      img: "/images/deluxe.webp",
       price: "$9.99",
     },
   ];

@@ -13,7 +13,7 @@ const Aboutuss = () => {
           <div className="lg:w-1/2">
             <div className="overflow-hidden rounded-lg shadow-lg h-80">
               <img 
-                src="/images/dough.jpeg"
+                src="/images/dough.webp"
                 alt="Tradition of Pizza Making"
                 className="object-cover w-full h-full"
               />
@@ -53,7 +53,7 @@ const Aboutuss = () => {
           <div className="lg:w-1/2">
             <div className="overflow-hidden rounded-lg shadow-lg h-80">
               <img 
-                src="/images/pizza3.jpeg"
+                src="/images/pizza3.webp"
                 alt="Community and Connection"
                 className="object-cover w-full h-full"
               />
