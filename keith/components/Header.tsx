@@ -19,7 +19,7 @@ const Header = () => {
     <Navbar className="navbar bg-black-500">
       <NavbarBrand>
         <img 
-          src="/images/logo.png" 
+          src="/images/logo.webp" 
           alt="Your Brand Logo" 
           className="mt-2 ml-0 w-[220px] h-[50px] " // Adjust the margin-top (mt-2) and margin-left (ml-0) as needed
         />
