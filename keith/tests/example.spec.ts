@@ -109,3 +109,8 @@ test('Navbar renders correctly', async ({ page }) => {
   const navbar = await page.locator('nav');
   expect(await navbar.isVisible()).toBeTruthy();
 });
+test('Logo image loads correctly', async ({ page }) => {
+  await page.goto('https://group-project-three.vercel.app/');
+  const logoImage = await page.locator('nav >> img[alt="Your Brand Logo"]');
+  expect(await logoImage.isVisible()).toBeTruthy();
+});
