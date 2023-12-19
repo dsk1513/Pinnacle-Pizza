@@ -114,3 +114,7 @@ test('Logo image loads correctly', async ({ page }) => {
   const logoImage = await page.locator('nav >> img[alt="Your Brand Logo"]');
   expect(await logoImage.isVisible()).toBeTruthy();
 });
+test('Page is accessible', async ({ page }) => {
+  await page.goto('https://group-project-three.vercel.app/Home');
+  await expect(await page.accessibility.snapshot()).toBeTruthy();
+});
