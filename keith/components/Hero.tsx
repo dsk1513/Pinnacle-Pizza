@@ -36,7 +36,11 @@ const Hero = () => {
                        
                     </h1>
                     <p className="text-base sm:text-2xl text-blue-700">
-                    Exclusive Offer: Enjoy 50% Off ON Your First Order
+                     Enjoy 50% Off ON Your First Order
+                   
+                    </p>
+                    <p className="text-base sm:text-L text-blue-700">
+                     *OFFER VALID TILL CHRISTMAS
                    
                     </p>
                    
