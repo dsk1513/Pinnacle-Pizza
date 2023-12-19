@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "test:e2e": "npx playwright test",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -42,6 +43,7 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "@playwright/test": "^1.40.1",
     "@types/gtag.js": "^0.0.18"
   }
 }
