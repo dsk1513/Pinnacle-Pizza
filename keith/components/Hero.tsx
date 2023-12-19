@@ -33,16 +33,15 @@ const Hero = () => {
                 <div className="space-y-4">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl tracking-tight font-extrabold text-gray-900">
                         <span className="block xl:inline">Taste Italy Here! Served Hot, Fresh, and Fast</span><br />
-                       
                     </h1>
-                    <p className="text-base sm:text-2xl text-blue-700">
-                     Enjoy 50% Off ON Your First Order
-                   
-                    </p>
-                    <p className="text-base sm:text-l text-blue-700">
-                     *OFFER VALID TILL CHRISTMAS
-                   
-                    </p>
+                    <p className="text-base sm:text-2xl text-blue-700 ">
+  <strong>Enjoy 50% Off On Your First Order</strong>
+</p>
+<p className="text-base sm:text-xs text-blue-700 ">
+  <strong>*OFFER VALID TILL CHRISTMAS</strong>
+</p>
+
+
                    
                 </div>
             </div>
