@@ -39,3 +39,4 @@ test.describe('Cards Component Tests', () => {
     // Navigate to the page where the Cards component is rendered
     await page.goto('https://group-project-three.vercel.app/');
   });
+});
