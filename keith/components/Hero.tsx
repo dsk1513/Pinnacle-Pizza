@@ -32,14 +32,14 @@ const Hero = () => {
             <div className="relative z-20 w-full max-w-full px-4 md:max-w-lg md:p-8">
                 <div className="space-y-4">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl tracking-tight font-extrabold text-gray-900">
-                        <span className="block xl:inline">Gourmet Pies: Served Hot, Fresh, and Fast</span><br />
+                        <span className="block xl:inline">Taste Italy Here! Served Hot, Fresh, and Fast</span><br />
                        
                     </h1>
                     <p className="text-base sm:text-2xl text-blue-700">
                      Enjoy 50% Off ON Your First Order
                    
                     </p>
-                    <p className="text-base sm:text-L text-blue-700">
+                    <p className="text-base sm:text-l text-blue-700">
                      *OFFER VALID TILL CHRISTMAS
                    
                     </p>
