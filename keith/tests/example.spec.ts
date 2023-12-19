@@ -18,9 +18,9 @@ test.describe('Aboutuss Component Tests', () => {
   });
  // Test for image sources
  test('should display correct images', async ({ page }) => {
-  await expect(page.locator('img[alt="Tradition of Pizza Making"]')).toHaveAttribute('src', '/images/dough.jpeg');
+  await expect(page.locator('img[alt="Tradition of Pizza Making"]')).toHaveAttribute('src', '/images/dough.webp');
   await expect(page.locator('img[alt="Artisanal Ingredients"]')).toHaveAttribute('src', '/images/pizza2.webp');
-  await expect(page.locator('img[alt="Community and Connection"]')).toHaveAttribute('src', '/images/pizza3.jpeg');
+  await expect(page.locator('img[alt="Community and Connection"]')).toHaveAttribute('src', '/images/pizza3.webp');
 });
  // Test for the presence of specific text content
  test('should display the correct text content', async ({ page }) => {
