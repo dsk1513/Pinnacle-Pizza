@@ -104,3 +104,8 @@ for (const title of titles) {
   });
 }
 
+test('Navbar renders correctly', async ({ page }) => {
+  await page.goto('https://group-project-three.vercel.app/'); // Adjust the URL to your application's URL
+  const navbar = await page.locator('nav');
+  expect(await navbar.isVisible()).toBeTruthy();
+});
