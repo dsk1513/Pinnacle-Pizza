@@ -16,4 +16,10 @@ test.describe('Aboutuss Component Tests', () => {
     const heading = await page.locator('h2:text("Our Story")').textContent();
     await expect(heading).toBe('Our Story');
   });
+ // Test for image sources
+ test('should display correct images', async ({ page }) => {
+  await expect(page.locator('img[alt="Tradition of Pizza Making"]')).toHaveAttribute('src', '/images/dough.jpeg');
+  await expect(page.locator('img[alt="Artisanal Ingredients"]')).toHaveAttribute('src', '/images/pizza2.webp');
+  await expect(page.locator('img[alt="Community and Connection"]')).toHaveAttribute('src', '/images/pizza3.jpeg');
+});
 });
