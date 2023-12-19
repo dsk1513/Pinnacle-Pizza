@@ -32,3 +32,10 @@ test.describe('Aboutuss Component Tests', () => {
 
 // Additional tests can be written to cover other aspects of the component
 });
+
+
+test.describe('Cards Component Tests', () => {
+  test.beforeEach(async ({ page }) => {
+    // Navigate to the page where the Cards component is rendered
+    await page.goto('https://group-project-three.vercel.app/');
+  });
